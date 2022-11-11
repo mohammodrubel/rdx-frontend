@@ -1,0 +1,20 @@
+.slick-next:before {
+    content: '→';
+    color: #163269;
+}
+.slick-prev:before {
+    content: '←';
+    color: #163269;
+}
+.slick-next{
+    margin: 60px 50%;
+}
+.slick-prev{
+    margin:60px 50%;
+}
+.twitter{
+    margin: 70px 0px;
+    padding: 60px 0px!important;
+    background:url(../../img/sliderbackground.jpg);
+    background-size: cover;
+}

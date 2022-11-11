@@ -1,0 +1,25 @@
+.UniversityDevelopment{
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li{
+            margin-top: 20px;
+            padding: 5px;
+            list-style: none;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+    .pill{
+        background-color: #192F59;
+    }
+    .activepill{
+        background-color: #3DB166;
+    }
+}

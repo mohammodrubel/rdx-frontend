@@ -1,0 +1,22 @@
+.teacherBanner{
+    background:linear-gradient(#192f59cc,#192f59cc),url(../../img/libiry.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teacherP{
+    line-height:30.6px;
+    vertical-align:baseline;
+    letter-spacing:400;
+    word-spacing:0px;
+    margin:0px 0px 20px;
+    padding:0px;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    color: rgb(219, 220, 223);
+    text-align:left;
+    text-indent:0px;
+}

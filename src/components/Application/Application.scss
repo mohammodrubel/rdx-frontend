@@ -1,0 +1,12 @@
+.Application{
+    background: linear-gradient(#192f59e3,#192f59e3),url(../img/application.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+    .applicationRead{
+        color: white;
+    }
+}

@@ -1,0 +1,112 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: #242934;
+    width: 250px;
+    height: 100vh;
+    overflow-y: scroll;
+    transform: translate(-100%);
+    transition: all 0.4s ease-in-out;
+    z-index: 999;
+
+    ul{
+        padding: 15px 10px;
+
+        li{
+            padding: 10px 0px;
+            text-decoration: none;
+            font-weight: 500;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            .icon{
+                margin: 0 8px;
+            }
+        }
+    }
+}
+.place{
+    margin-left: 250px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+// responsive
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .dashbordsidebaractive{
+        transform: translate(0%);
+        transition: all 0.4s ease-in-out;
+    }
+    .place{
+        margin-left: 0px;
+        padding: 10px;
+        width: 100%;
+    }
+       
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .dashbordsidebaractive{
+        transform: translate(0%);
+        transition: all 0.4s ease-in-out;
+    }
+    .place{
+        margin-left: 0px;
+        padding: 10px;
+        width: 100%;
+    }
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dashbordsidebaractive{
+        transform: translate(0%);
+        transition: all 0.4s ease-in-out;
+    }
+    .place{
+        margin-left: 0px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    
+}
+@media (min-width: 999px) {
+    .dashbordsidebaractive{
+        transform: translate(0%);
+        transition: all 0.4s ease-in-out;
+    }
+    .place{
+        margin-left: 0px;
+        padding: 10px;
+        width: 100%;
+    }
+   
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+    
+
+}
